@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+      Авто
+    </title>
+</head>
+<body bgcolor="#dee0df">
+<p align="center">
+<a href="main.html">Самые продаваемые марки и модели автомобилей во Владивостоке.</a><br>
+<a href="Table.html">Список самых продаваемых марок автомобилей во Владивостоке.</a>
+</p>
+<form>
+<details>
+    <summary>График</summary>
+<h3>Значение по оси OX</h3>
+<label><input type="radio" name="quest_1" value="1_1">Тип кузова</label> <br>
+        <label><input type="radio" name="quest_1" value="1_2">Страна</label><br>
+        <label><input type="radio" name="quest_1" value="1_3">Год</label><br>
+<h3>Результат</h3>
+<label><input type="checkbox" name="quest_2" value="1_1">Максимальный Обьем</label> <br>
+        <label><input type="checkbox" name="quest_2" value="1_2">Минимальный объем</label><br>
+        <label><input type="checkbox" name="quest_2" value="1_3">Количество моделей</label><br>
+<button type="button" name="Dray">Построить</button>
+</details>
+
+<details>
+    <summary>Фильтр</summary>
+Модель: <label><input type="text" name="quest_model"></label><br>
+Марка: <label><input type="text" name="quest_marka"></label><br>
+Страна: <label><input type="text" name="quest_contry"></label><br>
+Тип кузова: <label><input type="text" name="quest_type"></label><br>
+Год от: <label><input type="number" name="quest_min_year"></label> до <label><input type="number" name="quest_max_year"></label><br>
+Л.с от: <label><input type="number" name="quest_min_hp"></label> до <label><input type="number" name="quest_max_hp"></label><br>
+<button type="button" name="search">Найти</button>
+</details>
+
+<details>
+    <summary>Сортировка</summary>
+Первый уровень: <select name="level_1">
+ <option value="0">Нет</option>
+ <option value="1" selected>Да</option>
+</select> по стране? <label><input type="checkbox" name="level_1_yb" value="3"></label><br>
+Второй уровень: <select name="level_2">
+ <option value="0">Нет</option>
+ <option value="1" selected>Да</option>
+</select> по марке? <label><input type="checkbox" name="level_2_yb" value="3"></label><br>
+Третий уровень: <select name="level_3">
+ <option value="0">Нет</option>
+ <option value="1" selected>Да</option>
+</select> по объему? <label><input type="checkbox" name="level_3_yb" value="3"></label><br>
+</details>
+</form>
+<a name="table"><table border="1" cellspacing="0" cellpadding="5"></a>
+  <tr>
+     <td><b>Модель</b></td>
+     <td><b>Марка</b></td>
+     <td><b>Страна</b></td>
+     <td><b>Тип кузова</b></td>
+     <td><b>Обьем двигателя, л</b></td>
+     <td><b>Год</b></td>
+     <td><b>Л.с</b></td>
+  </tr>
+  <tr>
+     <td>Prius</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Хэтчбек</td>
+     <td>2.0</td>
+     <td>2008</td>
+     <td>99</td>
+  </tr>
+<tr>
+     <td>Voxy</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Минивен</td>
+     <td>1.8</td>
+     <td>2015</td>
+     <td>99</td>
+  </tr>
+  <tr>
+     <td>Chaser</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>2.5</td>
+     <td>1998</td>
+     <td>200</td>
+  </tr>
+  <tr>
+     <td>Highlander</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2019</td>
+     <td>220</td>
+  </tr>
+<tr>
+     <td>Land Cruiser</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Внедорожник</td>
+     <td>4.5</td>
+     <td>2013</td>
+     <td>235</td>
+  </tr>
+  <tr>
+     <td>Corolla Axio</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>1.5</td>
+     <td>2016</td>
+     <td>103</td>
+  </tr>
+  <tr>
+     <td>C-HR</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>1.2</td>
+     <td>2019</td>
+     <td>116</td>
+  </tr>
+<tr>
+     <td>Harrier</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2020</td>
+     <td>171</td>
+  </tr>
+  <tr>
+     <td>Crown</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>2.5</td>
+     <td>2010</td>
+     <td>203</td>
+  </tr>
+  <tr>
+     <td>Corolla Fielder</td>
+     <td>Toyota</td>
+     <td>Япония</td>
+     <td>Универсал</td>
+     <td>1.5</td>
+     <td>2008</td>
+     <td>105</td>
+  </tr>
+<tr>
+     <td>Forester</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2017</td>
+     <td>280</td>
+  </tr>
+  <tr>
+     <td>XV</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>1.6</td>
+     <td>2017</td>
+     <td>115</td>
+  </tr>
+  <tr>
+     <td>Levorg</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Универсал</td>
+     <td>1.6</td>
+     <td>2014</td>
+     <td>170</td>
+  </tr>
+<tr>
+     <td>Impreza WRX STI</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>2.5</td>
+     <td>2014</td>
+     <td>300</td>
+  </tr>
+  <tr>
+     <td>Legacy B4</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>2.0</td>
+     <td>2004</td>
+     <td>260</td>
+  </tr>
+  <tr>
+     <td>Levorg</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Универсал</td>
+     <td>1.8</td>
+     <td>2021</td>
+     <td>177</td>
+  </tr>
+<tr>
+     <td>Dex</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Хэтчбек</td>
+     <td>1.3</td>
+     <td>2009</td>
+     <td>92</td>
+  </tr>
+  <tr>
+     <td>Justy</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Хэтчбек</td>
+     <td>1.0</td>
+     <td>2019</td>
+     <td>69</td>
+  </tr>
+  <tr>
+     <td>Trezia</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Компактвэн</td>
+     <td>1.3</td>
+     <td>2011</td>
+     <td>95</td>
+  </tr>
+<tr>
+     <td>Outback</td>
+     <td>Subaru</td>
+     <td>Япония</td>
+     <td>Универсал</td>
+     <td>2.5</td>
+     <td>2006 </td>
+     <td>165</td>
+  </tr>
+  <tr>
+     <td>Note</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Хетчбэк </td>
+     <td>1.2</td>
+     <td>2013</td>
+     <td>98</td>
+  </tr>
+  <tr>
+     <td>X-Trail</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.5</td>
+     <td>2015</td>
+     <td>171</td>
+  </tr>
+<tr>
+     <td>Qashqai</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2018 </td>
+     <td>144</td>
+  </tr>
+  <tr>
+     <td>AD</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Универсал</td>
+     <td>1.5</td>
+     <td>2018 </td>
+     <td>111</td>
+  </tr>
+  <tr>
+     <td>Serena</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Минивен</td>
+     <td>1.2</td>
+     <td>2019</td>
+     <td>84</td>
+  </tr>
+ <tr>
+     <td>Skyline</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>2.5</td>
+     <td>2007</td>
+     <td>225</td>
+  </tr>
+<tr>
+     <td>Terrano</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Внедорожник</td>
+     <td>3.2</td>
+     <td>1997</td>
+     <td>150</td>
+  </tr>
+<tr>
+     <td>Murano</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>3.5</td>
+     <td>2017</td>
+     <td>249</td>
+  </tr>
+<tr>
+     <td>Juke</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>1.5</td>
+     <td>2016</td>
+     <td>114</td>
+  </tr>
+<tr>
+     <td>Pathfinder</td>
+     <td>Nissan</td>
+     <td>Япония</td>
+     <td>Внедорожник</td>
+     <td>2.5</td>
+     <td>2014 </td>
+     <td>234</td>
+  </tr>
+<tr>
+     <td>Insight</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Лифтбек</td>
+     <td>1.3</td>
+     <td>2009</td>
+     <td>88</td>
+  </tr>
+<tr>
+     <td>Vezel</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>1.5</td>
+     <td>2014 </td>
+     <td>132</td>
+  </tr>
+<tr>
+     <td>CR-V</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2021</td>
+     <td>145</td>
+  </tr>
+<tr>
+     <td>Fit</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Хэтчбэк</td>
+     <td>1.5</td>
+     <td>2019 </td>
+     <td>110</td>
+  </tr>
+<tr>
+     <td>Civic</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Седан</td>
+     <td>1.5</td>
+     <td>2021 </td>
+     <td>177</td>
+  </tr>
+<tr>
+     <td>Freed Spike</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Хэтчбэк</td>
+     <td>1.5</td>
+     <td>2010</td>
+     <td>118</td>
+  </tr>
+<tr>
+     <td>Fit Shuttle</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Хэтчбэк</td>
+     <td>1.5</td>
+     <td>2011</td>
+     <td>120</td>
+  </tr>
+<tr>
+     <td>HR-V</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Кроссовер</td>
+     <td>1.6</td>
+     <td>1999</td>
+     <td>125</td>
+  </tr>
+<tr>
+     <td>Freed</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Минивэн</td>
+     <td>1.5</td>
+     <td>2022 </td>
+     <td>110</td>
+  </tr>
+<tr>
+     <td>Stepwgn</td>
+     <td>Honda</td>
+     <td>Япония</td>
+     <td>Минивэн</td>
+     <td>2.0</td>
+     <td>2018</td>
+     <td>145</td>
+  </tr>
+<tr>
+     <td>5-Series</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Седан</td>
+     <td>2.0</td>
+     <td>2017 </td>
+     <td>190</td>
+  </tr>
+<tr>
+     <td>X4</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Кроссовер</td>
+     <td>2.0</td>
+     <td>2016 </td>
+     <td>245</td>
+  </tr>
+<tr>
+     <td>3-Series</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Седан</td>
+     <td>2.0</td>
+     <td>2020</td>
+     <td>190</td>
+  </tr>
+<tr>
+     <td>X6</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Кроссовер</td>
+     <td>4.4</td>
+     <td>2015</td>
+     <td>575</td>
+  </tr>
+<tr>
+     <td>7-Series</td>
+      <td>BMW</td>
+     <td>Германия</td>
+     <td>Седан</td>
+     <td>3.0</td>
+     <td>2017</td>
+     <td>320</td>
+  </tr>
+<tr>
+     <td>X6</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Кроссовер</td>
+     <td>3.0</td>
+     <td>2023</td>
+     <td>298</td>
+  </tr>
+<tr>
+     <td>X2</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Кроссовер</td>
+     <td>1.5</td>
+     <td>2018 </td>
+     <td>140</td>
+  </tr>
+<tr>
+     <td>X5</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Кроссовер</td>
+     <td>3.0</td>
+     <td>2014</td>
+     <td>313</td>
+  </tr>
+<tr>
+     <td>M4</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>Седан</td>
+     <td>3.0</td>
+     <td>2022 </td>
+     <td>510</td>
+  </tr>
+<tr>
+     <td>i3</td>
+     <td>BMW</td>
+     <td>Германия</td>
+     <td>хэтчбек</td>
+     <td>0</td>
+     <td>2014</td>
+     <td>108</td>
+  </tr>
+</table>
+</body>
+</html>

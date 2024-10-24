@@ -1,0 +1,131 @@
+.main-border{
+border:  solid;
+}
+a{
+text-decoration:   none;
+color:  white;
+padding:  30px;
+font-size:  34px;
+}
+div{
+font-size:  24px;
+}
+
+.menu-picture{
+background-image:url("https://img4.goodfon.ru/wallpaper/original/0/d4/avto-sakura-vesna-gorod.jpg");
+background-repeat:  no-repeat;
+margin-right:  auto;
+}
+.menu-block{
+padding:  20px;
+text-align:  center;
+}
+.name-block{
+font-size:  29px;
+margin:  150px;
+color:  white;
+text-align:  center;
+}
+
+.block-toy{
+margin-left:  5%;
+float:  left;
+width:  55%;
+
+}
+
+.block-toy > img{
+width:  52.7%;
+float:  left;
+overflow:  hidden;
+}
+
+
+.text-toy{
+overflow:  hidden;
+margin-right:  auto;
+margin-left:  auto;
+width:  41.5%;
+text-align:  justify;
+}
+.toy{
+overflow:  hidden;
+text-align:  center;
+margin-top:  1%;
+font-weight:  bold;
+font-size:  40px;
+}
+
+.right-block{
+margin-right:  5%;
+overflow:  hidden;
+text-align:  center;
+width:  30%;
+float:  right;
+
+}
+
+.right-block > img{
+overflow:  hidden;
+width:  40%;
+float:  left;
+}
+
+.text-sub{
+overflow:  hidden;
+margin-top: 10%;
+text-align: justify;
+width:  65%;
+}
+
+.sub{
+overflow:  hidden;
+width:  40%;
+margin-top:  5%;
+margin-left:  5%;
+font-weight:  bold;
+font-size:  40px;
+
+}
+.niss{
+margin-top:  4%;
+margin-right:  16.7%;
+font-weight:  bold;
+font-size:  40px;
+float:  right;
+}
+.text-niss{
+margin-left: auto;
+margin-right: 6.8%;
+text-align: justify;
+margin-top:  9%;
+width:  30%;
+}
+.text-hond{
+margin-left: auto;
+margin-right: 6.8%;
+text-align: justify;
+margin-top:  8%;
+width:  30%;
+}
+.end{
+display: inline-block;
+width:  89.7%;
+margin-left:  5%; 
+border:  solid;
+
+}
+
+.line{
+padding-top:  1%;
+float:  left;
+margin-right:  2%;
+text-align:  right;
+}
+
+.contacts{
+padding-top:  1%;
+float:  right;
+text-align:  right;
+}
+
